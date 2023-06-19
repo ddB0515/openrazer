@@ -765,7 +765,7 @@ class RazerOrnataV3(_RippleKeyboard):
     EVENT_FILE_REGEX = re.compile(r'.*Razer_Ornata_V3(-if01)?-event-kbd')
 
     USB_VID = 0x1532
-    USB_PID = 0x028F
+    USB_PID = 0x02A1
     HAS_MATRIX = True
     WAVE_DIRS = (1, 2)
     MATRIX_DIMS = [1, 10]
